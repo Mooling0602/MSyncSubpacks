@@ -1,3 +1,5 @@
+For English users, you have to use translate tools at present.
+
 # MSyncSubpacks
 MatrixSync的子包源码仓库，不包括其他开发者制作的子包或对接MatrixSync的独立插件。
 
