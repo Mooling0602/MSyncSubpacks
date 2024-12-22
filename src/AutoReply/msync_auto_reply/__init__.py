@@ -1,6 +1,6 @@
 import os
 import yaml
-import matrix_sync.globals as globals
+import matrix_sync.plg_globals as globals
 
 from mcdreforged.api.all import *
 from matrix_sync.commands import matrix_reporter
