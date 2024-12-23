@@ -27,7 +27,7 @@ def on_load(server: PluginServerInterface, old):
     global plugin_config
     plugin_config = load_config()
     
-    server.logger.info("[MSync]AutoReply loaded.")
+    server.logger.info("§a+§r [MSync]AutoReply")
     server.register_event_listener('MatrixRoomMessage', main)
 
 def main(server: PluginServerInterface, message: str, sender: str, room_name):
@@ -39,3 +39,6 @@ def main(server: PluginServerInterface, message: str, sender: str, room_name):
                 matrix_reporter(reply_content)
                 server.logger.info("解析到指定内容，已自动发送回复")
                 break
+
+def on_unload(server: PluginServerInterface):
+    server.logger.info("§c-§r [MSync]AutoReply")
