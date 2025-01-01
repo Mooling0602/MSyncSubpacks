@@ -15,6 +15,9 @@ jobs:
       path: ${{ steps.get-path.outputs.path }}
 
     steps:
+      - name: Check Out
+        uses: actions/checkout@v4
+        
       - name: Release Please
         uses: googleapis/release-please-action@v4
         id: release-please
