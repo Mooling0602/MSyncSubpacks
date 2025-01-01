@@ -30,10 +30,10 @@ jobs:
         if: always()
         run: |
           if [ "${{ steps.release-please.outputs.releases_created }}" == "true" ]; then
-            echo "path=${{ fromJson(steps.release-please.outputs.paths_released)[0] }}" >> $GITHUB_OUTPUT
+            echo "paths=${{ steps.release-please.outputs.paths_released }}" >> $GITHUB_OUTPUT
           else
             tree
-            paths=$(find src -maxdepth 2 -type f -name "mcdreforged.plugin.json" -exec dirname {} \; | sort -u | jq -Rns '[inputs]')
+            paths=$(find src -maxdepth 2 -type f -name "mcdreforged.plugin.json" -exec dirname {} \; | sort -u | jq -R '[inputs]' | jq -c '.')
             echo "paths=$paths" >> $GITHUB_OUTPUT
           fi
 
