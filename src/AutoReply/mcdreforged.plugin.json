@@ -4,7 +4,7 @@
 	"name": "[MSync]AutoReply",
 	"description": {
 		"en_us": "A subpack of MatrixSync, automatically reply messages from room.",
-		"zh_cn": "MatrixSync的子包，用于自动回复房间内的消息"
+		"zh_cn": "MatrixSync的子包，用于自动回复来自指定房间内的消息"
 	},
 	"dependencies": {
 		"mcdreforged": ">=2.14.0",
