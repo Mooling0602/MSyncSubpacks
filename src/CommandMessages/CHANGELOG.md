@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/Mooling0602/MSyncSubpacks/compare/msync_cmd_msg-v0.1.1...msync_cmd_msg-v0.1.2) (2025-01-01)
+
+
+### Bug Fixes
+
+* none ([01be71e](https://github.com/Mooling0602/MSyncSubpacks/commit/01be71e8790090799d3f88dc3a5be68fc72f30f1))
+
 ## [0.1.1](https://github.com/Mooling0602/MSyncSubpacks/compare/msync_cmd_msg-v0.1.0...msync_cmd_msg-v0.1.1) (2025-01-01)
 
 
