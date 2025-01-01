@@ -1,6 +1,6 @@
 {
 	"id": "msync_cmd_msg",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"name": "[MSync]CommandMessages",
 	"description": {
 		"en_us": "A subpack of MatrixSync, transfer server messages related to the console and commands.",
