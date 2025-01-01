@@ -24,7 +24,7 @@ jobs:
 
       - name: Get Path
         id: get-path
-        if: ${{ steps.release-please.outputs.releases_created == 'true' }}
+        if: always()
         run: |
           echo "path=${{ fromJson(steps.release-please.outputs.paths_released)[0] }}" >> $GITHUB_OUTPUT
 
