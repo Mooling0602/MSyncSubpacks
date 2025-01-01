@@ -1,6 +1,6 @@
 {
 	"id": "msync_cmd_msg",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"name": "[MSync]CommandMessages",
 	"description": {
 		"en_us": "A subpack of MatrixSync, transfer server messages related to the console and commands.",
@@ -8,8 +8,8 @@
 	},
 	"dependencies": {
 		"mcdreforged": ">=2.14.0",
-        "matrix_sync": ">=2.5.0"
+		"matrix_sync": ">=2.5.0"
 	},
 	"author": "Mooling0602",
-    "link": "https://github.com/Mooling0602/MatrixSync-MCDR"
+	"link": "https://github.com/Mooling0602/MatrixSync-MCDR"
 }
