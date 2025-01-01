@@ -1,6 +1,6 @@
 {
 	"id": "msync_auto_reply",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"name": "[MSync]AutoReply",
 	"description": {
 		"en_us": "A subpack of MatrixSync, automatically reply messages from room.",
@@ -8,7 +8,7 @@
 	},
 	"dependencies": {
 		"mcdreforged": ">=2.14.0",
-        "matrix_sync": ">=2.5.0"
+        "matrix_sync": ">=2.5.1"
 	},
 	"author": "Mooling0602",
     "link": "https://github.com/Mooling0602/MSyncSubpacks"

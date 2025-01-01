@@ -1,7 +1,9 @@
 For English users, you have to use translate tools at present.
 
 # MSyncSubpacks
-MatrixSync的子包源码仓库，不包括其他开发者制作的子包或对接MatrixSync的独立插件。
+[MatrixSync](https://mcdreforged.com/zh-CN/plugin/matrix_sync)的子包源码仓库，不包括其他开发者制作的子包或对接MatrixSync的独立插件。
+
+滚动更新，始终支持最新的MatrixSync最新版，不保留旧版本源码。
 
 ## 用法
 从Release中下载，然后按正常MCDR插件加载即可。

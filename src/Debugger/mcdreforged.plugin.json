@@ -1,6 +1,6 @@
 {
 	"id": "msync_debugger",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"name": "[MSync]plgDebugger",
 	"description": {
 		"en_us": "A subpack of MatrixSync, used to debug.",
@@ -8,7 +8,7 @@
 	},
 	"dependencies": {
 		"mcdreforged": ">=2.14.0",
-        "matrix_sync": ">=2.5.0"
+        "matrix_sync": ">=2.5.1"
 	},
 	"author": "Mooling0602",
     "link": "https://github.com/Mooling0602/MatrixSync-MCDR"

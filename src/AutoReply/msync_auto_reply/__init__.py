@@ -1,9 +1,9 @@
 import os
 import yaml
-import matrix_sync.plg_globals as globals
+import matrix_sync.plg_globals as globals # type: ignore
 
 from mcdreforged.api.all import *
-from matrix_sync.commands import matrix_reporter
+from matrix_sync.commands import matrix_reporter # type: ignore
 
 CONFIG_PATH = 'config/matrix_sync/auto_reply/config.yml'
 
@@ -30,15 +30,17 @@ def on_load(server: PluginServerInterface, old):
     server.logger.info("§a+§r [MSync]AutoReply")
     server.register_event_listener('MatrixRoomMessage', main)
 
-def main(server: PluginServerInterface, message: str, sender: str, room_name):
+def main(server: PluginServerInterface, message: str, sender: str, room_info):
     triggers = plugin_config.get("triggers", {})
     user_id = globals.config["user_id"]
+    room_id = globals.config["room_id"]
     if sender != user_id:
-        for trigger_word, reply_content in triggers.items():
-            if message == trigger_word:
-                matrix_reporter(reply_content)
-                server.logger.info("解析到指定内容，已自动发送回复")
-                break
+        if room_info.id == room_id:
+            for trigger_word, reply_content in triggers.items():
+                if message == trigger_word:
+                    matrix_reporter(reply_content)
+                    server.logger.info("解析到指定内容，已自动发送回复")
+                    break
 
 def on_unload(server: PluginServerInterface):
     server.logger.info("§c-§r [MSync]AutoReply")

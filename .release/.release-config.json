@@ -1,0 +1,26 @@
+{
+    "release-type": "simple",
+    "pull-request-title-pattern": "chore${scope}: 🔖 release${component} ${version}",
+    "extra-files": [
+      {
+        "type": "json",
+        "path": "mcdreforged.plugin.json",
+        "jsonpath": "$.version"
+      }
+    ],
+    "separate-pull-requests": true,
+    "packages": {
+      "src/AutoReply": {
+        "package-name": "msync_auto_reply"
+      },
+      "src/CommandMessages": {
+        "package-name": "msync_cmd_msg"
+      },
+      "src/Debugger": {
+        "package-name": "msync_debugger"
+      },
+      "src/PlayerTips": {
+        "package-name": "msync_player_tips"
+      }
+    }
+  }
