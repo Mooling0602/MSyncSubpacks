@@ -1,6 +1,6 @@
 {
 	"id": "msync_debugger",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"name": "[MSync]plgDebugger",
 	"description": {
 		"en_us": "A subpack of MatrixSync, which is used to debug.",
