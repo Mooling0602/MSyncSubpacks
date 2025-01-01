@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.4](https://github.com/Mooling0602/MSyncSubpacks/compare/msync_debugger-v0.0.3...msync_debugger-v0.0.4) (2025-01-01)
+
+
+### Bug Fixes
+
+* **src/Debugger:** description ([f37a3fa](https://github.com/Mooling0602/MSyncSubpacks/commit/f37a3fad1e3931f42f6edccbe06768276cd0c952))
+
 ## [0.0.3](https://github.com/Mooling0602/MSyncSubpacks/compare/msync_debugger-v0.0.2...msync_debugger-v0.0.3) (2025-01-01)
 
 
