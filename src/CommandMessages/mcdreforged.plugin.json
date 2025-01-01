@@ -4,7 +4,7 @@
 	"name": "[MSync]CommandMessages",
 	"description": {
 		"en_us": "A subpack of MatrixSync, transfer server messages related to the console and commands.",
-		"zh_cn": "MatrixSync的子包，转发与控制台和命令相关的服务器消息。"
+		"zh_cn": "MatrixSync的子包，转发与控制台和命令相关的服务器消息"
 	},
 	"dependencies": {
 		"mcdreforged": ">=2.14.0",

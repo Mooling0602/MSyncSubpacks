@@ -4,7 +4,7 @@
 	"name": "[MSync]plgDebugger",
 	"description": {
 		"en_us": "A subpack of MatrixSync, used to debug.",
-		"zh_cn": "MatrixSync的子包，用于调试。"
+		"zh_cn": "MatrixSync的子包，用于调试"
 	},
 	"dependencies": {
 		"mcdreforged": ">=2.14.0",
