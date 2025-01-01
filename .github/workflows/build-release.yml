@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Build
     needs: release
-    if: ${{ needs.release.outputs.releases_created == 'true' }}
+    if: always()
 
     steps:
       - name: Check Out
