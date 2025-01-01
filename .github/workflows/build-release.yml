@@ -29,7 +29,7 @@ jobs:
         id: get-path
         if: ${{ steps.release-please.outputs.releases_created == 'true' }}
         run: |
-          echo "paths=${{ steps.release-please.outputs.paths_released }}" >> $GITHUB_OUTPUT
+          echo "path=${{ fromJson(steps.release-please.outputs.paths_released)[0] }}" >> $GITHUB_OUTPUT
 
   build:
     runs-on: ubuntu-latest
