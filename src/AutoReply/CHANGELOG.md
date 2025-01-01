@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/Mooling0602/MSyncSubpacks/compare/msync_auto_reply-v0.1.1...msync_auto_reply-v0.1.2) (2025-01-01)
+
+
+### Bug Fixes
+
+* **src/AutoReply:** description ([1bd5879](https://github.com/Mooling0602/MSyncSubpacks/commit/1bd5879ffe5b5bbc8117d75e2b04ed6767d047c8))
+
 ## [0.1.1](https://github.com/Mooling0602/MSyncSubpacks/compare/msync_auto_reply-v0.1.0...msync_auto_reply-v0.1.1) (2025-01-01)
 
 
