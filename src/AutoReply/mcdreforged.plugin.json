@@ -1,9 +1,9 @@
 {
 	"id": "msync_auto_reply",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"name": "[MSync]AutoReply",
 	"description": {
-		"en_us": "A subpack of MatrixSync, automatically reply messages from room.",
+		"en_us": "A subpack of MatrixSync, automatically reply messages from specified room.",
 		"zh_cn": "MatrixSync的子包，用于自动回复来自指定房间内的消息"
 	},
 	"dependencies": {
