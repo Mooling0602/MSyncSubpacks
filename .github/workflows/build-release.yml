@@ -27,21 +27,15 @@ jobs:
 
       - name: Get Path
         id: get-path
-        if: always()
+        if: ${{ steps.release-please.outputs.releases_created == 'true' }}
         run: |
-          if [ "${{ steps.release-please.outputs.releases_created }}" == "true" ]; then
-            echo "paths=${{ steps.release-please.outputs.paths_released }}" >> $GITHUB_OUTPUT
-          else
-            tree
-            paths=$(find src -maxdepth 2 -type f -name "mcdreforged.plugin.json" -exec dirname {} \; | sort -u | jq -R '[inputs]' | jq -c '.')
-            echo "paths=$paths" >> $GITHUB_OUTPUT
-          fi
+          echo "paths=${{ steps.release-please.outputs.paths_released }}" >> $GITHUB_OUTPUT
 
   build:
     runs-on: ubuntu-latest
     name: Build
     needs: release-please
-    if: always()
+    if: ${{ needs.release-please.outputs.releases_created == 'true' }}
 
     steps:
       - name: Check Out
