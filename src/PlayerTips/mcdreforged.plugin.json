@@ -1,6 +1,6 @@
 {
 	"id": "msync_player_tips",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"name": "[MSync]PlayerTips",
 	"description": {
 		"en_us": "A subpack of MatrixSync, send tips to the group when player joined and left the game.",
