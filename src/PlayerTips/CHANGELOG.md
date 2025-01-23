@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.4](https://github.com/Mooling0602/MSyncSubpacks/compare/msync_player_tips-v0.0.3...msync_player_tips-v0.0.4) (2025-01-23)
+
+
+### Bug Fixes
+
+* **src/PlayerTips:** Update mcdreforged.plugin.json ([17d023b](https://github.com/Mooling0602/MSyncSubpacks/commit/17d023bd897e146a94612263e233753283274bfd))
+
 ## [0.0.3](https://github.com/Mooling0602/MSyncSubpacks/compare/msync_player_tips-v0.0.2...msync_player_tips-v0.0.3) (2025-01-23)
 
 
