@@ -4,7 +4,7 @@
 	"name": "[MSync]PlayerTips",
 	"description": {
 		"en_us": "A subpack of MatrixSync, send tips to the group when player joined and left the game.",
-		"zh_cn": "MatrixSync的子包，在玩家上下线时在房间内进行提示"
+		"zh_cn": "MatrixSync的子包，在玩家上下线时在房间内进行提示。"
 	},
 	"dependencies": {
 		"mcdreforged": ">=2.14.0",
